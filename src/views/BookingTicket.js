@@ -76,20 +76,20 @@ const BookingTicket = () => {
       <div className="flex">
         <input
           type="number"
-          onChange={(e) => setNumber(e.target.value)}
+          onChange={(e) => setNumber(Number(e.target.value))}
           value={number}
           max={15}
           min={1}
           className="border-2 w-9 mx-5 border-tertiary-700 mb-8 cursor-pointer text-black text-sm font-normal text-center py-2"
         />
         <button
-          disabled={userSeats.length != number ? true : false}
+          disabled={userSeats.length !== number ? true : false}
           onClick={() => {
             dispatch(seatsBooking({ seatsBooking: userSeats }));
             history.push("/history");
           }}
           className={`border-2 w-full mx-5 bg-accentInformation-700 mb-8 cursor-pointer text-white text-sm font-normal text-center py-2
-          ${userSeats.length != number ? "bg-slate-400" : ""}`}
+          ${userSeats.length !== number ? "bg-slate-400" : ""}`}
         >
           Select
         </button>

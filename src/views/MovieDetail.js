@@ -59,16 +59,15 @@ const MovieDetail = () => {
 
           <div className="block mb-10 mx-10">
             <img src={movie1.Poster} alt="img" className="mt-10" />
-            <h1 className="font-normal text-sm text-slate-700 mt-3">
+            <p className="font-normal text-sm text-slate-700 mt-3">
               Movie Name : {movie1.Title}
-            </h1>
-            <h1 className="font-normal text-sm text-slate-700 mt-3">
+            </p>
+            <p className="font-normal text-sm text-slate-700 mt-3">
               Movie Released : {movie1.Released}
-            </h1>
-
-            <h1 className="font-normal text-sm text-slate-700 mt-3">
+            </p>
+            <p className="font-normal text-sm text-slate-700 mt-3">
               Movie Plot : {movie1.Plot}
-            </h1>
+            </p>
           </div>
           <div
             onClick={booking}

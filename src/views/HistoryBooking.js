@@ -29,21 +29,12 @@ const HistoryBooking = () => {
           <img src={movie?.moviePoster.moviePoster} alt="img" className="" />
         </div>
         <div className="block mb-10 ml-9">
-          <h1 className="font-normal text-sm text-slate-700 mt-3">
+          <p className="font-normal text-sm text-slate-700 mt-3">
             {movie?.movieName.movieName}
-          </h1>
+          </p>
           <div className="flex mt-2">
-            <h1 className="font-normal text-sm text-slate-700">Seats:</h1>
-            {movie?.seatsBooking.seatsBooking.map((i, idx) => {
-              return (
-                <h1
-                  className="font-normal text-sm text-slate-700 ml-2"
-                  key={idx}
-                >
-                  {movie?.seatsBooking.seatsBooking.length > 1 ? i + "," : i }
-                </h1>
-              );
-            })}
+            <p className="font-normal text-sm text-slate-700">Seats:&nbsp;</p>
+            {movie?.seatsBooking.seatsBooking.join(",")}
           </div>
         </div>
       </div>

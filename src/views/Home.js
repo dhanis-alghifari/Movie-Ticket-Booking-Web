@@ -206,9 +206,9 @@ const Home = () => {
                   onClick={() => handleDetail(i.imdbID)}
                 >
                   <img src={i?.Poster} alt="img" className="w-40" />
-                  <h1 className="font-normal text-xs text-slate-700 mt-3">
+                  <p className="font-normal text-xs text-slate-700 mt-3">
                     {i.Title}
-                  </h1>
+                  </p>
                 </div>
               );
             })}
