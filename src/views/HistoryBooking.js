@@ -30,20 +30,17 @@ const HistoryBooking = () => {
         </div>
         <div className="block mb-10 ml-9">
           <h1 className="font-normal text-sm text-slate-700 mt-3">
-            Movie Name : {movie?.movieName.movieName}
+            {movie?.movieName.movieName}
           </h1>
-          <h1 className="font-normal text-sm text-slate-700 mt-3">
-            Movie Plot : {movie?.moviePlot.moviePlot}
-          </h1>
-          <div className="flex">
-            <h1 className="font-normal text-sm text-slate-700">Seat:</h1>
+          <div className="flex mt-2">
+            <h1 className="font-normal text-sm text-slate-700">Seats:</h1>
             {movie?.seatsBooking.seatsBooking.map((i, idx) => {
               return (
                 <h1
                   className="font-normal text-sm text-slate-700 ml-2"
                   key={idx}
                 >
-                  {i + ","}
+                  {movie?.seatsBooking.seatsBooking.length > 1 ? i + "," : i }
                 </h1>
               );
             })}

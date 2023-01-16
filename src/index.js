@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./index.scss";
@@ -11,7 +11,8 @@ import MovieDetail from "./views/MovieDetail";
 import BookingTicket from "./views/BookingTicket";
 import HistoryBooking from "./views/HistoryBooking";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <BrowserRouter>
     <Provider store={store}>
       <Switch>
@@ -24,6 +25,5 @@ ReactDOM.render(
         <Redirect from="*" to="/home" />
       </Switch>
     </Provider>
-  </BrowserRouter>,
-  document.getElementById("root")
+  </BrowserRouter>
 );
