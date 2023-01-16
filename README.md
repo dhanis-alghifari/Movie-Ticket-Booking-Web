@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Movie Ticket Booking Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mini Project Test Member.id
 
-## Available Scripts
+## Cara Menjalankan Project di Local Komputer anda
 
-In the project directory, you can run:
+clone project ini atau download, kemudian ketik command dibawah ini
+
+### `npm install`
+
+kemudian jalankan projectnya dengan command dibawah ini
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Catatan, Karena API dari omdbapi ada issue di cors, untuk bisa menjalankan project ini di browser bisa menggunakan command di bawah ini
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `chrome.exe --disable-web-security --user-data-dir=c:\my-chrome-data\data`
 
-### `npm test`
+lalu baru buka link ini [http://localhost:3000](http://localhost:3000) di browser yang security nya sudah dimatikan melalui command diatas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+atau untuk lihat secara online bisa ke sini [https://63c54e320479cd126a877ad3--peppy-maamoul-48b3da.netlify.app/home](https://63c54e320479cd126a877ad3--peppy-maamoul-48b3da.netlify.app/home)
 
-### `npm run build`
+# Screenshot Layout Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![screen home layout](https://user-images.githubusercontent.com/28486482/212696809-c16ae631-6ba8-49e5-96e3-205cf73b901b.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![screen home layout detail](https://user-images.githubusercontent.com/28486482/212699724-73643c62-f55e-4078-9df0-1aebd5327efd.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![screen home layout booking](https://user-images.githubusercontent.com/28486482/212699966-9b7629df-e431-4c0e-8ccf-f09cae712858.png)
 
-### `npm run eject`
+![screen home layout history](https://user-images.githubusercontent.com/28486482/212700227-bd1da00b-e610-4f75-959d-2d3072f0d61b.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Screenshot Result App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![screen home app](https://user-images.githubusercontent.com/28486482/212701240-0ff835d2-d6e8-4aa8-898a-bba8718a705d.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![screen detail movie app](https://user-images.githubusercontent.com/28486482/212703520-e91e3af8-443d-4679-b2e9-27c3be5b38b2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![screen booking movie app](https://user-images.githubusercontent.com/28486482/212703773-5f9813a7-ba2b-4539-8f19-716d6d516ef9.png)
 
-## Learn More
+![screen history booking movie app](https://user-images.githubusercontent.com/28486482/212704063-5379bc09-ddf3-4fda-8a67-6d26454601da.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
