@@ -44,7 +44,7 @@ const MovieDetail = () => {
   };
 
   return (
-    <div className="pages">
+    <div className="pages overflow-x-hidden overflow-auto">
       {loading ? (
         <Skeleton className="flex w-full h-82" />
       ) : (
@@ -56,12 +56,9 @@ const MovieDetail = () => {
               onClick={back}
             />
           </div>
-          <h1 className="text-base text-slate-700 font-medium text-center my-6">
-            Detail Movie
-          </h1>
 
           <div className="block mb-10 mx-10">
-            <img src={movie1.Poster} alt="img" className="" />
+            <img src={movie1.Poster} alt="img" className="mt-10" />
             <h1 className="font-normal text-sm text-slate-700 mt-3">
               Movie Name : {movie1.Title}
             </h1>

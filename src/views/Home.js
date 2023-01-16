@@ -197,9 +197,6 @@ const Home = () => {
         <Skeleton className="flex w-full h-82" />
       ) : (
         <>
-          <h1 className="text-base text-slate-700 font-medium text-center z-10 my-6">
-            List Movies
-          </h1>
           <div className="grid grid-cols-2 ml-10 mt-5">
             {dataMovie?.map((i, idx) => {
               return (
