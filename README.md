@@ -12,7 +12,7 @@ kemudian jalankan projectnya dengan command dibawah ini
 
 ### `npm start`
 
-## Catatan, Karena API dari omdbapi ada issue di cors, untuk bisa menjalankan project ini di browser bisa menggunakan command di bawah ini
+## Catatan, Karena API dari omdbapi ada issue di cors, untuk bisa menjalankan project ini di browser bisa menggunakan command di bawah ini di wiindows + r atau windows run
 
 ### `chrome.exe --disable-web-security --user-data-dir=c:\my-chrome-data\data`
 
