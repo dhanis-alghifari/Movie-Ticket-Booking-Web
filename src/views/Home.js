@@ -149,17 +149,8 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     getmovie1();
-  }, []);
-  useEffect(() => {
-    setLoading(true);
     getmovie2();
-  }, []);
-  useEffect(() => {
-    setLoading(true);
     getmovie3();
-  }, []);
-  useEffect(() => {
-    setLoading(true);
     getmovie4();
     getmovie5();
     getmovie6();
