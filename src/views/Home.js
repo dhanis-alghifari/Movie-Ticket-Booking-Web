@@ -192,12 +192,12 @@ const Home = () => {
             {dataMovie?.map((i, idx) => {
               return (
                 <div
-                  className="block mb-10 cursor-pointer"
+                  className="block mb-10"
                   key={idx}
                   onClick={() => handleDetail(i.imdbID)}
                 >
-                  <img src={i?.Poster} alt="img" className="w-40" />
-                  <p className="font-normal text-xs text-slate-700 mt-3">
+                  <img src={i?.Poster} alt="img" className="w-40 cursor-pointer" />
+                  <p className="font-normal text-xs text-slate-700 mt-3 cursor-pointer">
                     {i.Title}
                   </p>
                 </div>
