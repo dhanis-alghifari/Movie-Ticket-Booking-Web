@@ -192,7 +192,7 @@ const Home = () => {
             {dataMovie?.map((i, idx) => {
               return (
                 <div
-                  className="block mb-10"
+                  className="block mb-10 cursor-pointer"
                   key={idx}
                   onClick={() => handleDetail(i.imdbID)}
                 >
